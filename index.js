@@ -10,7 +10,7 @@ function getToken() {
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
    const url = `${baseURL}/repos/${repo}/forks`;
-   fetch(url, { method: POST, headers: { Authorization: `get ${getToken()}`}}).then(res => res.json())
+   fetch(url, { method: POST, headers: { Authorization: `get ${getToken()}`}}).then(res => res.json()).then(json => showResults(json));
 }
 
 function showResults(json) {
