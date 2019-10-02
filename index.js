@@ -21,7 +21,8 @@ function showResults(json) {
 
 
 function createIssue() {
-
+const repo
+const 
 }
 
 function getIssues() {
