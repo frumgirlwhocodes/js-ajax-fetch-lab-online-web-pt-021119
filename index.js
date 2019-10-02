@@ -21,9 +21,9 @@ function showResults(json) {
 
 
 function createIssue() {
-  //use this function to create an issue based on the values input in index.html
+
 }
 
 function getIssues() {
-  //once an issue is submitted, fetch all open issues to see the issues you are creating
+
 }
